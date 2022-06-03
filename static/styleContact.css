@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Mukta:wght@300&family=Syne+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-size: 40px;
+    font-family: 'Syne Mono', monospace;
+}
+.container{
+    min-height: 64vh;
+    margin: 72px 0px;
+}
+.myForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.myInput{
+    width: 40%;
+    margin: 8px;
+    padding: 9px;
+    font-size: 14px;
+    border: 2px solid #9a7979;
+    border-radius: 22px;
+    /* outline: none; */
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 28px;
+    font-size: 18px;
+    color: white;
+    background-color: #c04848;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+}
